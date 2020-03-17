@@ -19,5 +19,6 @@ navbar:
   right:
     - icon: fa-question fa-lg
       href: https://example.com
+exclude: "DESCRIPTION"
 meta: "meta"
 layout: "_layout"
