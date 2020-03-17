@@ -1,0 +1,9 @@
+{
+  "title":  "Covid19",
+  "author": "Mirai",
+  "menu_entry": "Mirai Covid19",
+  "embed_url": "https://fvitalini.shinyapps.io/Covid19",
+  "geom": {
+    "height": "2000px"
+  }
+}

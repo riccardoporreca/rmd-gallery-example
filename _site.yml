@@ -1,0 +1,23 @@
+name: "my-website"
+output:
+  html_document:
+    css: styles.css
+navbar:
+  title: "My Website"
+  type: inverse
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "About"
+      icon: fa-info
+      href: about.html
+    - text: "Gallery"
+      icon: fa-gear
+      menu:
+        - text: dummy
+  right:
+    - icon: fa-question fa-lg
+      href: https://example.com
+meta: "meta"
+layout: "_layout"
