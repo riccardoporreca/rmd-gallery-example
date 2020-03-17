@@ -21,7 +21,7 @@ gallery_site_generator <- function(input, ...) {
     )
     files <- list.files(input, pattern)
     if (is.character(config$autospin)) files <- c(files, config$autospin)
-    files[!grepl("^README\\.R?md$", files)]
+    file <- files[!grepl("^README\\.R?md$", files)]
     files <- c(files, list.files(config$meta, "[.]json$", full.names = TRUE))
     files
 
