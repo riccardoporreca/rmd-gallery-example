@@ -43,8 +43,9 @@ jobs:
 
       - name: Deploy to GitHub Pages
         if: github.ref == 'refs/heads/master'
-        uses: Cecilapp/GitHub-Pages-deploy@master
+        uses: crazy-max/ghaction-github-pages@v1.3.0
+        with:
+          target_branch: gh-pages
+          build_dir: _site
         env:
-          EMAIL: deploy@github.com
-          GH_TOKEN: ${{ secrets.GHPAGES_DEPLOY_TOKEN }}
-          BUILD_DIR: _site
+          GITHUB_TOKEN: ${{ secrets.GHPAGES_DEPLOY_TOKEN }}
