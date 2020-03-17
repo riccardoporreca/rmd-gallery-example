@@ -1,4 +1,7 @@
 Imports:
   glue,
   htmltools,
-  rmarkdown
+  rmarkdown,
+  rmdgallery
+Remotes:
+  riccardoporreca/rmdgallery

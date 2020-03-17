@@ -1,6 +1,6 @@
 ---
 title: "My Gallery with R Markdown"
-site: gallery_site_generator
+site: rmdgallery::gallery_site_generator
 ---
 
 Hello, Website!

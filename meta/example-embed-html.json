@@ -1,0 +1,8 @@
+{
+  "title": "Gist Embedding Example (raw HTML)",
+  "author": "riccardo",
+  "menu_entry": "Gist (HTML)",
+  "template": "embed-html",
+  "content": "<script src=\\\"https://gist.github.com/riccardoporreca/8fdf653d79be44ed1ad5a90e34bcbeb1.js\\\"></script>",
+  "geom": []
+}

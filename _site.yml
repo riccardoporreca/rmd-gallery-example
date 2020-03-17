@@ -14,11 +14,9 @@ navbar:
       href: about.html
     - text: "Gallery"
       icon: fa-gear
-      menu:
-        - text: dummy
   right:
     - icon: fa-question fa-lg
       href: https://example.com
 exclude: "DESCRIPTION"
-meta: "meta"
-layout: "_layout"
+before_embed: "<h2>{{title}} by {{author}}</h2>"
+after_embed: "<h2>This is the end</h2>"
