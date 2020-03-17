@@ -46,5 +46,5 @@ jobs:
         uses: Cecilapp/GitHub-Pages-deploy@master
         env:
           EMAIL: deploy@github.com
-          GH_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          GH_TOKEN: ${{ secrets.GHPAGES_DEPLOY_TOKEN }}
           BUILD_DIR: _site
