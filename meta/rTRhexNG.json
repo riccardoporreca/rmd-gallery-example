@@ -3,5 +3,6 @@
   "author": "Mirai Solutions",
   "menu_entry": "rTRhexNG",
   "embed_url": "https://miraisolutions.shinyapps.io/rTRhexNG/",
+  "script": false,
   "geom": []
 }

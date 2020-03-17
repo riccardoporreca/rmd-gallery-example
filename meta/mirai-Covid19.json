@@ -3,6 +3,7 @@
   "author": "Mirai Solutions",
   "menu_entry": "Mirai Covid19",
   "embed_url": "https://miraisolutions.shinyapps.io/Covid19",
+  "script": false,
   "geom": {
     "height": "2000px"
   }

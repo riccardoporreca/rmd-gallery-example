@@ -3,5 +3,6 @@
   "author": "Mirai Solutions",
   "menu_entry": "SmaRP",
   "embed_url": "https://smarp.mirai-solutions.ch",
+  "script": false,
   "geom": []
 }
