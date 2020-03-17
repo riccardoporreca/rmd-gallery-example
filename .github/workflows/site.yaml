@@ -42,7 +42,7 @@ jobs:
         run: Rscript -e 'source("script/build.R")'
 
       - name: Deploy to GitHub Pages
-        if: github.ref == 'refs/heads/feature/gh-actions-deploy'
+        if: github.ref == 'refs/heads/master'
         uses: Cecilapp/GitHub-Pages-deploy@master
         env:
           EMAIL: deploy@github.com
