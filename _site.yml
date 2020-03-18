@@ -18,5 +18,6 @@ navbar:
     - icon: fa-question fa-lg
       href: https://example.com
 exclude: "DESCRIPTION"
-before_embed: "<h2>{{title}} by {{author}}</h2>"
-after_embed: "<h2>This is the end</h2>"
+gallery:
+  include_before: "<h2>{{title}} by {{author}} [<a href=\"{{url}}\" target = \"_blank\">source</a>]</h2>"
+  include_after: "<h2>This is the end</h2>"

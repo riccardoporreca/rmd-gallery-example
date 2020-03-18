@@ -1,6 +1,7 @@
 {
   "title": "rTRhexNG",
   "author": "Mirai Solutions",
+  "url": "https://example.com/",
   "menu_entry": "rTRhexNG",
   "template": "embed-url",
   "content": "https://miraisolutions.shinyapps.io/rTRhexNG/",
