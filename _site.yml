@@ -12,12 +12,14 @@ navbar:
     - text: "About"
       icon: fa-info
       href: about.html
-    - text: "Gallery"
-      icon: fa-gear
   right:
     - icon: fa-question fa-lg
       href: https://example.com
 exclude: "DESCRIPTION"
 gallery:
-  include_before: "<h2>{{title}} by {{author}} [<a href=\"{{url}}\" target = \"_blank\">source</a>]</h2>"
-  include_after: "<h2>This is the end</h2>"
+  navbar:
+    left:
+      - text: "Gallery"
+        icon: fa-gear
+  include_before: '<h2>{{title}} by {{author}} [<a href="{{url}}" target = "_blank">source</a>]</h2>'
+  include_after: '<h2>This is the end</h2>'
