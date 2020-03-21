@@ -1,0 +1,11 @@
+{
+  "title": "Techguides",
+  "author": "Mirai Solutions",
+  "url": "https://example.com/",
+  "menu_entry": "Techguides",
+  "template": "embed-url",
+  "content": "https://mirai-solutions.ch/techguides/",
+  "geom": {
+    "height": "70vh"
+  }
+}
