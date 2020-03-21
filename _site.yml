@@ -12,13 +12,14 @@ navbar:
     - text: "About"
       icon: fa-info
       href: about.html
-    - text: "Gallery"
-      icon: fa-gear
-      menu:
-        - text: dummy
   right:
     - icon: fa-question fa-lg
       href: https://example.com
 exclude: "DESCRIPTION"
-meta: "meta"
-layout: "_layout"
+gallery:
+  navbar:
+    left:
+      - text: "Gallery"
+        icon: fa-gear
+  include_before: '<div><h3 style= "display: inline;">{{title}}</h3> by {{author}} [<a href="{{url}}" target = "_blank">source</a>]<hr/></div>'
+  include_after: '<hr>This is a footer<hr/>'

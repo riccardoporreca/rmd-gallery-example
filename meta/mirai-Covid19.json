@@ -1,9 +1,10 @@
 {
   "title":  "Covid19",
   "author": "Mirai Solutions",
+  "url": "https://example.com/",
   "menu_entry": "Mirai Covid19",
-  "embed_url": "https://miraisolutions.shinyapps.io/Covid19",
-  "script": false,
+  "template": "embed-url",
+  "content": "https://miraisolutions.shinyapps.io/Covid19",
   "geom": {
     "height": "2000px"
   }
