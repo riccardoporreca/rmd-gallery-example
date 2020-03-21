@@ -4,8 +4,5 @@
   "url": "https://example.com/",
   "menu_entry": "Mirai Covid19",
   "template": "embed-url",
-  "content": "https://miraisolutions.shinyapps.io/Covid19",
-  "geom": {
-    "height": "2000px"
-  }
+  "content": "https://miraisolutions.shinyapps.io/Covid19"
 }
