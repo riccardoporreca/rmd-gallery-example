@@ -3,7 +3,7 @@ title: "My Gallery with R Markdown"
 site: rmdgallery::gallery_site_generator
 ---
 
-Hello, Website!
+<h1>Hello, Website!</h1>
 
 For more information about simple R Markdown websites, please read the documentation at https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html.
 

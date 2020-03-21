@@ -21,5 +21,5 @@ gallery:
     left:
       - text: "Gallery"
         icon: fa-gear
-  include_before: '<h2>{{title}} by {{author}} [<a href="{{url}}" target = "_blank">source</a>]</h2>'
-  include_after: '<h2>This is the end</h2>'
+  include_before: '<div><h3 style= "display: inline;">{{title}}</h3> by {{author}} [<a href="{{url}}" target = "_blank">source</a>]<hr/></div>'
+  include_after: '<hr>This is a footer<hr/>'
