@@ -43,6 +43,12 @@ jobs:
           rmarkdown::render_site()
         shell: Rscript {0}
 
+      - name: Upload built site artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: site
+          path: _site
+          
       - name: Deploy to GitHub Pages
         if: github.ref == 'refs/heads/master'
         uses: crazy-max/ghaction-github-pages@v1.3.0
