@@ -18,6 +18,7 @@ navbar:
       href: https://github.com/riccardoporreca/rmd-gallery-example
 exclude: "DESCRIPTION"
 gallery:
+  single_meta: true
   navbar:
     left:
       - text: "Gallery"

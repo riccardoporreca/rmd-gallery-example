@@ -5,7 +5,7 @@
   "menu_entry": "Techguides",
   "template": "embed-url",
   "content": "https://mirai-solutions.ch/techguides/",
-  "geom": {
+  "css": {
     "height": "70vh"
   }
 }

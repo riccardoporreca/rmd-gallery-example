@@ -1,21 +1,20 @@
 ---
 title: "My Gallery with R Markdown"
-site: rmdgallery::gallery_site_generator
+site: rmdgallery::gallery_site
 ---
 
-<h1>Hello, Website!</h1>
+<h1>Hello, Website Gallery!</h1>
 
-For more information about simple R Markdown websites, please read the documentation at https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html.
+This website includes a gallery a gallery of embedded pages constructed in a dynamic way based on JSON metadata, using the `gallery_site()` generator provided by package [**rmdgallery**](https://github.com/riccardoporreca/rmdgallery#readme) and rendered via `rmarkdown::render_site()`. For more information about simple R Markdown websites, please read the documentation at https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html.
 
-Please also note that simple R Markdown sites are _not_ based on **blogdown**. They are probably good for websites with only a few Rmd documents. For larger-scale and more sophisticated websites (such as blogs), you may want to use **blogdown** instead: https://github.com/rstudio/blogdown.
+The following pages are included:
 
 ```{r, echo=FALSE}
-meta_files <- list.files("meta", "[.]json$", full.names = TRUE)
+meta <- rmdgallery::gallery_site_config()$gallery$meta
 htmltools::tags$ul(
-  lapply(meta_files, function(json_file) {
-    json <- jsonlite::read_json(json_file)
-    href <- sub(".json$", ".html", basename(json_file))
-    with(json, {
+  lapply(names(meta), function(name) {
+    href <- sprintf("%s.html", name)
+    with(meta[[name]], {
       htmltools::tags$li(
         htmltools::a(href = href, title),
         "by", author, 

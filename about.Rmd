@@ -2,3 +2,9 @@
 title: "About This Website"
 ---
 
+<h1>About this website</h1>
+
+The pages in the gallery are rendered based on the following metadata, as processed and returned by
+```{r, comment=""}
+str(rmdgallery::gallery_site_config()$gallery$meta)
+```
