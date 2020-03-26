@@ -5,7 +5,7 @@ site: rmdgallery::gallery_site
 
 <h1>Hello, Website Gallery!</h1>
 
-This website includes a gallery a gallery of embedded pages constructed in a dynamic way based on JSON metadata, using the `gallery_site()` generator provided by package [**rmdgallery**](https://github.com/riccardoporreca/rmdgallery#readme) and rendered via `rmarkdown::render_site()`. For more information about simple R Markdown websites, please read the documentation at https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html.
+This website includes a gallery a gallery of embedded pages constructed in a dynamic way based on JSON metadata, using the `gallery_site()` generator provided by package [**rmdgallery**](https://riccardoporreca.github.io/rmdgallery) and rendered via `rmarkdown::render_site()`. For more information about simple R Markdown websites, please read the documentation at https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html.
 
 The following pages are included:
 
