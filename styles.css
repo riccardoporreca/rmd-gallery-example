@@ -25,3 +25,7 @@
   padding: 0 10px;
 }
 
+/* Sensible default for non-responsive content */
+#gallery-iframe {
+  height: 80vh;
+}
