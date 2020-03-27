@@ -34,4 +34,6 @@ gallery:
         htmltools::hr()
     )}}
   include_after: |
-    <hr>This is a footer for {{title}}<hr/>
+    <hr/>This is a footer for {{title}}<hr/>
+    <p><em>Created with <a href="https://riccardoporreca.github.io/rmdgallery" target="_blank">rmdgallery</a>
+    {{utils::packageVersion("rmdgallery")}}</em></p>
