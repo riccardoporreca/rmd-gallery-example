@@ -5,6 +5,11 @@
   display: none;
 }
 
+/* we do not want extra space below the galler-after footer */
+body {
+  padding-bottom: 0 !important;
+}
+
 /* Customized style for the before and after elements and their content */
 
 /* There is no padding nor margin in the main body container (see main.js) */
