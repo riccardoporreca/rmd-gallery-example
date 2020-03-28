@@ -26,14 +26,21 @@ gallery:
   include_before: |
     {{htmltools::tagList(
         htmltools::tags$script(src="main.js"),
-        htmltools::h3(title, style = htmltools::css(display = "inline")),
-        htmltools::tags$em("by", author),
-        htmltools::tags$sup(
-          "[", htmltools::a("source", href = url, target = "_blank", .noWS = "outside"), "]"
+        htmltools::div(
+          class = "row",
+          htmltools::h3(title, style = htmltools::css(display = "inline")),
+          htmltools::tags$em("by", author),
+          htmltools::tags$sup(
+            "[", htmltools::a("source", href = url, target = "_blank", .noWS = "outside"), "]"
+          )
         ),
         htmltools::hr()
     )}}
   include_after: |
-    <hr/>This is a footer for {{title}}<hr/>
-    <p><em>Created with <a href="https://riccardoporreca.github.io/rmdgallery" target="_blank">rmdgallery</a>
-    {{utils::packageVersion("rmdgallery")}}</em></p>
+    <hr/><div class="row">
+      <span>This is a footer for {{title}}</span>
+      <span style="float: right;"><em>
+        Created with <a href="https://riccardoporreca.github.io/rmdgallery" target="_blank">rmdgallery</a>
+        {{utils::packageVersion("rmdgallery")}}
+      </em></span>
+    </div><hr/>
