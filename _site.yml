@@ -19,6 +19,11 @@ navbar:
 exclude: "DESCRIPTION"
 gallery:
   single_meta: true
+  type_field: type
+  type_template:
+    shiny: embed-url
+    embed: embed-html
+    webpage: embed-url
   navbar:
     left:
       - text: "Gallery"

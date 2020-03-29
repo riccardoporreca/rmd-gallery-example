@@ -3,6 +3,6 @@
   "author": "Mirai Solutions",
   "url": "https://example.com/",
   "menu_entry": "Techguides",
-  "template": "embed-url",
-  "content": "https://mirai-solutions.ch/techguides/"
+  "type": "webpage",
+  "content": "https://github.com"
 }
