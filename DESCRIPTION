@@ -1,5 +1,4 @@
 Imports:
-  glue,
   htmltools,
   rmarkdown,
   rmdgallery
