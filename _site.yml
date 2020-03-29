@@ -24,6 +24,8 @@ gallery:
     shiny: embed-url
     embed: embed-html
     webpage: embed-url
+  defaults:
+    template: embed-url
   navbar:
     left:
       - text: "Gallery"
