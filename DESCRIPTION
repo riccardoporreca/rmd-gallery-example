@@ -3,4 +3,4 @@ Imports:
   rmarkdown,
   rmdgallery
 Remotes:
-  riccardoporreca/rmdgallery@feature/14-file-based-includes
+  riccardoporreca/rmdgallery@develop
