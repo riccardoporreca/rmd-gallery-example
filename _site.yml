@@ -19,6 +19,7 @@ navbar:
 exclude: "DESCRIPTION"
 gallery:
   single_meta: true
+  order_by: [author, title]
   type_field: type
   type_template:
     shiny: embed-url
