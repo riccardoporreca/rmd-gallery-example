@@ -48,7 +48,7 @@ jobs:
         with:
           name: site
           path: _site
-          
+
       - name: Deploy to GitHub Pages
         if: github.ref == 'refs/heads/master'
         uses: crazy-max/ghaction-github-pages@v1.3.0
@@ -56,4 +56,4 @@ jobs:
           target_branch: gh-pages
           build_dir: _site
         env:
-          GITHUB_TOKEN: ${{ secrets.GHPAGES_DEPLOY_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
