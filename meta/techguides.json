@@ -3,6 +3,7 @@
   "author": "Mirai Solutions",
   "url": "https://example.com/",
   "menu_entry": "Techguides",
+  "menu_icon": "fa-gear",
   "type": "webpage",
   "content": "https://mirai-solutions.ch/techguides"
 }
