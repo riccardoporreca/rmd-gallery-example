@@ -1,14 +1,17 @@
 {{
+  # demonstrate site_path(), sourcing a script making htmltools::tags available
+  # as tags
+  source(site_path("_includes", "tags.R"))
   htmltools::tagList(
-    htmltools::tags$script(src="main.js"),
-    htmltools::div(
+    tags$script(src="main.js"),
+    tags$div(
       class = "row",
-      htmltools::h3(title, style = htmltools::css(display = "inline")),
-      htmltools::tags$em("by", author),
-      htmltools::tags$sup(
-        "[", htmltools::a("source", href = url, target = "_blank", .noWS = "outside"), "]"
+      tags$h3(title, style = htmltools::css(display = "inline")),
+      tags$em("by", author),
+      tags$sup(
+        "[", tags$a("source", href = url, target = "_blank", .noWS = "outside"), "]"
       )
     ),
-    htmltools::hr()
+    tags$hr()
   )
 }}
