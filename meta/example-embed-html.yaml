@@ -1,0 +1,6 @@
+title: Embedding arbitrary raw HTML
+author: riccardo
+url: https://example.com/
+menu_entry: Raw HTML
+type: embed
+content: <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Oh nice! Riccardo Porreca from Mirai Solutions showing a Shiny app developed as a package and deployed using Kubernetes. Lots of awesome technical knowledge in this talk - will def be looking up the slides later! ❤️ <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://twitter.com/hashtag/user2019?src=hash&amp;ref_src=twsrc%5Etfw">#user2019</a> <a href="https://t.co/bFkWlvVO95">pic.twitter.com/bFkWlvVO95</a></p>&mdash; Nic Crane (@nic_crane) <a href="https://twitter.com/nic_crane/status/1148899196965142528?ref_src=twsrc%5Etfw">July 10 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

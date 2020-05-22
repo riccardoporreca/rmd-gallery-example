@@ -1,0 +1,8 @@
+{
+  "title": "Gist Embedding Example",
+  "author": "riccardo",
+  "url": "https://example.com/",
+  "menu_icon": "fa-github",
+  "template": "embed-script",
+  "content": "https://gist.github.com/riccardoporreca/8fdf653d79be44ed1ad5a90e34bcbeb1.js"
+}
