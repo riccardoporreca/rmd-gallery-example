@@ -19,3 +19,4 @@ To make sure all dependencies are installed, including [**rmdgallery**](https://
 ```r
 remotes::install_deps()
 ```
+
